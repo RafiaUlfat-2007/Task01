@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 2px solid black;
+    margin: 6px;
+}
+:root{
+    --secondary-color:#5E936C;
+    --primary-color:#93DA97;
+}
+/* NAVBAR START */
+/* CONTENT START */
+.navbar{
+    background-color:var(--secondary-color);
+    color:black;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 12px 40px;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+}
+.links>a{
+    text-decoration: none;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.links>a:hover{
+    background-color:var(--primary-color);
+}
+/* NAVBAR END */
+/* CONTENT START */
+div>input{
+    text-align: center;
+}
+.product_content{
+    background-color: var(--primary-color);
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+.product_intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 90px;
+    padding-top:120px;
+    font-size: large;
+}
+.search>input{
+    height: 5vh;
+    border-radius: 15px;
+}
+.button>button{
+    background-color: var(--secondary-color);
+    border-radius: 18px;
+    text-align: center;
+    width: 10vw;
+    border: 2px solid black;
+    padding: 8px;
+}
+.button>button:hover{
+    background-color: var(--primary-color);
+}
+.cars{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr  ;
+    display: grid;
+    gap: 20px;
+}
+.child{
+    background-color: white;
+    border: 3px solid black;
+    overflow: hidden;
+}
+.child>h2{
+    padding-right: 20px;
+}
+.child>img{
+    width: 24vw;
+    height: 20vh;
+}
+.icon>i{
+    padding: 15px;
+}
+/* CONTENT END */
+/* FOOTER START */
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+}    
+/* FOOTER END */
