@@ -70,7 +70,7 @@
 }
 .image>img{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     width:40vw
 }
 @media screen and (max-idth:70px){
@@ -80,4 +80,5 @@
     }
 }
 /* CONTENT END */
+
     
